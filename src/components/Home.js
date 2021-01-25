@@ -8,8 +8,8 @@ class Home extends Component {
       <div className="container">
         <Router>
         <Fade left>
-          <h1 className="title">John Nicholas</h1>
-            <h2 className="description">Graphic Designer | Visual Merchandiser.</h2>
+          <h1 className="title">John Nicolas</h1>
+            <h2 className="description">Graphic Designer | Visual Merchandiser</h2>
 
 
 
@@ -27,6 +27,7 @@ class Home extends Component {
               </div>
           </Fade>
         </Router>
+
       </div>
     )
   }

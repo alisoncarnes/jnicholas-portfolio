@@ -9,7 +9,7 @@ class HomeScreen extends Component {
         <Router>
 
         <div className="header">
-          <h1 className="title">John Nicholas</h1>
+          <h1 className="title">John Nicolas</h1>
           <h2 className="description">Graphic Designer | Visual Merchandiser.</h2>
 
           </div>

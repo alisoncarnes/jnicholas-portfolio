@@ -1,16 +1,45 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
+import BootstrapCarousel from '../components/Carousel';
 
 class VisualMerch extends Component {
   render() {
     return (
       <div className="main">
+        <Router>
+        <div className="container">
+          <h1 className="title" style={{marginTop: "30px"}}>Visual Merchandising</h1>
 
-        <h1>Visual Merch</h1>
-        <p>
-          <Link to={'/'}>Home</Link>
-        </p>
+          <div className="links">
+            <ul>
+              <li>
+              <ion-icon name="caret-forward-outline"></ion-icon>
+                <a href={'/'}>Home</a>
+              </li>
+              <li>
+                <ion-icon name="caret-forward-outline"></ion-icon>
+                <a href={'/about'}>About Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
+          <div className="empty-div">
+            <hr style={{width: "100%"}}/>
+          </div>
+
+          <div className="container">
+
+          <h1 className="store-name">Club Monaco</h1>
+
+          <BootstrapCarousel/>
+
+          <div className="padding"/>
+
+
+          </div>
+          </Router>
       </div>
     )
   }

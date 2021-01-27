@@ -6,6 +6,8 @@ import HomeScreen from './components/HomeScreen';
 import About from './components/About';
 import VisualMerch from './components/VisualMerch';
 import Fade from 'react-reveal/Fade';
+import BootstrapCarousel from './components/Carousel';
+
 
 function App() {
   return (

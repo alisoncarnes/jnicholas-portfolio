@@ -26,6 +26,47 @@ class BootstrapCarousel extends React.Component {
 <img className="d-block w-100" src="https://i.ibb.co/8NYmYNk/monaco2.png" alt=""/>
 </Carousel.Item>
 
+<Carousel.Item>
+<img className="d-block w-100" src=""/>
+</Carousel.Item>
+
+<Carousel.Item>
+<img className="d-block w-100" src=""/>
+</Carousel.Item>
+
+<Carousel.Item>
+<img className="d-block w-100" src=""/>
+</Carousel.Item>
+
+<Carousel.Item>
+<img className="d-block w-100" src=""/>
+</Carousel.Item>
+
+<Carousel.Item>
+<img className="d-block w-100" src=""/>
+</Carousel.Item>
+
+<Carousel.Item>
+<img className="d-block w-100" src=""/>
+</Carousel.Item>
+
+<Carousel.Item>
+<img className="d-block w-100" src=""/>
+</Carousel.Item>
+
+<Carousel.Item>
+<img className="d-block w-100" src=""/>
+</Carousel.Item>
+
+<Carousel.Item>
+<img className="d-block w-100" src=""/>
+</Carousel.Item>
+
+<Carousel.Item>
+<img className="d-block w-100" src=""/>
+</Carousel.Item>
+
+
 </Carousel>
 </div>
 </div>

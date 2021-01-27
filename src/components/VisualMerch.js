@@ -30,16 +30,22 @@ class VisualMerch extends Component {
           </div>
 
           <div className="container">
+            <div className="row">
+              <div className="col">
+              <h1 className="store-name">Club Monaco</h1>
 
-          <h1 className="store-name">Club Monaco</h1>
+              <BootstrapCarousel/>
+              </div>
 
-          <BootstrapCarousel/>
-
-          <div className="padding"/>
+              <div className="col">
+              <h1 className="store-name">Cos</h1>
+              </div>
 
 
           </div>
+          </div>
           </Router>
+          <div className="padding"/>
       </div>
     )
   }

@@ -15,9 +15,9 @@ function App() {
     <div className="App">
     <Router>
       <Switch>
-          <Route exact path='https://jnicolas.netlify.app/' component={Home} />
-          <Route exact path='https://jnicolas.netlify.app/visualmerchandising' component={VisualMerch} />
-          <Route exact path='https://jnicolas.netlify.app/about' component={About} />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/visualmerchandising' component={VisualMerch} />
+          <Route exact path='/about' component={About} />
       </Switch>
     </Router>
     </div>

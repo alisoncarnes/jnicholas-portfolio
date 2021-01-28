@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import BootstrapCarousel from '../components/Carousel';
+import CosCarousel from '../components/CosCarousel';
 
 class VisualMerch extends Component {
   render() {
@@ -14,11 +15,11 @@ class VisualMerch extends Component {
           <div className="links">
             <ul>
               <li>
-              <ion-icon name="caret-forward-outline"></ion-icon>
+              <ion-icon name="caret-forward-outline" style={{color:"#EFC5C7"}}></ion-icon>
                 <a href={'/'}>Home</a>
               </li>
               <li>
-                <ion-icon name="caret-forward-outline"></ion-icon>
+                <ion-icon name="caret-forward-outline" style={{color:"#EFC5C7"}}></ion-icon>
                 <a href={'/about'}>About Me</a>
               </li>
             </ul>
@@ -39,6 +40,8 @@ class VisualMerch extends Component {
 
               <div className="col">
               <h1 className="store-name">Cos</h1>
+
+              <CosCarousel/>
               </div>
 
 

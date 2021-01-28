@@ -60,8 +60,8 @@ ul{
 a{
   font-size: 25px;
   vertical-align: middle;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-transform: lowercase;
   text-decoration: none !important;
   color: 	#141414 !important;
   font-weight: bolder !important;
@@ -72,33 +72,54 @@ a:hover{
 }
 
 .store-name{
-  background-color: #EFC5C7 !important;
+  background-color: #141414 !important;
   color: whitesmoke !important;
-  margin-left: 100px;
+  opacity: 0.3;
   margin-top: 30px !important;
+  margin-left: 15px;
   padding: 5px;
-  width: 300px;
+  width: 200px;
   text-align: center;
-  font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-family: 'Alegreya Sans SC', sans-serif;
   text-transform: uppercase;
 }
 
 .carousel {
   width:500px;
-  height:400px;
+  height:500px;
   overflow: hidden !important;
+}
+
+.carousel-item{
+  height: 500px;
 }
 
 .carousel-indicators{
   visibility: hidden;
   /* color: black !important; */
+  bottom: 100px !important;
+  position:absolute !important;
 }
 
 .carousel-indicators li { visibility: hidden !important; }
 
+.carousel-control-prev{
+  top: 0% !important;
+  margin-left: 0px !important;
+  background-color: black !important;
+  height: 50px !important;
+}
+
+.carousel-control-next{
+  top: 0% !important;
+  margin-left: 0px !important;
+  background-color: black !important;
+  height: 50px !important;
+}
+
 .carousel-caption {
-  visibility: hidden !important;
+  /* visibility: hidden !important; */
 }
 
 .padding{

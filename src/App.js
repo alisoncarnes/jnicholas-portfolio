@@ -7,6 +7,7 @@ import About from './components/About';
 import VisualMerch from './components/VisualMerch';
 import Fade from 'react-reveal/Fade';
 import BootstrapCarousel from './components/Carousel';
+import CosCarousel from './components/CosCarousel';
 
 
 function App() {

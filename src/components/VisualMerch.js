@@ -10,7 +10,7 @@ class VisualMerch extends Component {
       <div className="main">
         <Router>
         <div className="container">
-          <h1 className="title" style={{marginTop: "30px"}}>Visual Merchandising</h1>
+          <h1 className="visual-title" style={{marginTop: "30px"}}>Visual Merchandising</h1>
 
           <div className="links">
             <ul>

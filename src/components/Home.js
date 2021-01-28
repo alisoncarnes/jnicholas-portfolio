@@ -22,10 +22,7 @@ class Home extends Component {
                     <ion-icon name="caret-forward-outline"></ion-icon>
                     <a href={'/about'}>About Me</a>
                   </li>
-                  <li>
-                    <ion-icon name="caret-forward-outline"></ion-icon>
-                    <a href={'/about'}>About Me</a>
-                  </li>
+                
                 </ul>
               </div>
           </Fade>

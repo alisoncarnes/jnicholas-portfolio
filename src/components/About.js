@@ -14,9 +14,8 @@ class About extends Component {
               <ul>
                 <li>
                 <ion-icon name="caret-forward-outline"></ion-icon>
-                <a href={'/'}>Home</a>
-                </li>
-                <li>
+                <a href={'/'} style={{paddingRight:"40px"}}>Home</a>
+
                   <ion-icon name="caret-forward-outline"></ion-icon>
                     <a href={'/visualmerchandising'}>Visual Merchandising</a>
                 </li>
@@ -44,9 +43,6 @@ class About extends Component {
                 <br/><br/>
                 <a href="https://docs.google.com/document/d/1T3MghXDzOQGNsYgv8-nj9YDiGZsy01yfGp8s1yNlT6o/edit?usp=sharing"><ion-icon name="document-text-outline" style={{color:"#EFC5C7"}}></ion-icon>Resume</a>
 
-                <br/><br/>
-                <a href="tel:1-562-895-3374"><ion-icon name="call-outline" style={{ color:"#EFC5C7"}}></ion-icon>
-                <span>562.895.3374</span></a>
 
                 </p>
             </div>

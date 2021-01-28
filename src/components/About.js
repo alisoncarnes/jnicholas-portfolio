@@ -7,7 +7,7 @@ class About extends Component {
       <div className="main" style={{textAlign:"center"}}>
         <Router>
           <div className="container">
-            <h1 className="title" style={{marginTop:"40px"}}>John Nicolas</h1>
+            <h1 className="about-title" style={{marginTop:"40px"}}>John Nicolas</h1>
               <h2 className="description">Graphic Designer | Visual Merchandiser</h2>
 
             <div className="links">

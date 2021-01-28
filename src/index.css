@@ -174,22 +174,23 @@ span{
   .title {
     font-size: 4em !important;
     margin-top: 5px;
-    margin-left: 20%;
+    margin-left: 5px;
 
 
   }
 
   .description{
     font-size: 1.5em !important;
-    margin-left: 20%;
+    margin-left: 5px;
     text-align: left;
     padding-top: 20px;
+    font-weight: bolder;
   }
 
   .links{
     text-align: left;
     margin-left: 0;
-    margin-left: 25%;
+    margin-left: 10px;
   }
 
   ion-icon{
@@ -207,19 +208,19 @@ span{
   .col-left{
     width: 100%;
     text-align: left;
-    right: 30%;
+    margin-left: 5px;
   }
 
   .col-right{
     width: 100%;
     text-align: left;
-    padding-left: 125px !important;
+    margin-left: 5px !important;
   }
 
   p{
   text-align: left;
   font-size: 15px;
-  right: 30%;
+  margin-left: 5px;
 }
 
  span{

@@ -17,12 +17,12 @@ class Home extends Component {
                 <ul>
                   <li>
                   <ion-icon name="caret-forward-outline"></ion-icon>
-                    <a href={'/visualmerchandising'} style={{paddingRight:"40px"}}>Visual Merchandising</a>
+                    <a href={'https://jnicolas.netlify.app/visualmerchandising'} style={{paddingRight:"40px"}}>Visual Merchandising</a>
 
                     <ion-icon name="caret-forward-outline"></ion-icon>
-                    <a href={'/about'}>About Me</a>
+                    <a href={'https://jnicolas.netlify.app/about'}>About Me</a>
                   </li>
-                
+
                 </ul>
               </div>
           </Fade>

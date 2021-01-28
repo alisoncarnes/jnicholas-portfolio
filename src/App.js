@@ -17,7 +17,7 @@ function App() {
       <Switch>
           <Route exact path='https://jnicolas.netlify.app/' component={Home} />
           <Route exact path='https://jnicolas.netlify.app/visualmerchandising' component={VisualMerch} />
-          <Route exact path='/about' component={About} />
+          <Route exact path='https://jnicolas.netlify.app/about' component={About} />
       </Switch>
     </Router>
     </div>

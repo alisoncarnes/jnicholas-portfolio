@@ -16,10 +16,10 @@ class VisualMerch extends Component {
             <ul>
               <li>
               <ion-icon name="caret-forward-outline" style={{color:"#EFC5C7"}}></ion-icon>
-                <a href={'/'} style={{paddingRight:"40px"}}>Home</a>
+                <a href={'https://jnicolas.netlify.app/'} style={{paddingRight:"40px"}}>Home</a>
 
                 <ion-icon name="caret-forward-outline" style={{color:"#EFC5C7"}}></ion-icon>
-                <a href={'/about'}>About Me</a>
+                <a href={'https://jnicolas.netlify.app/about'}>About Me</a>
                 </li>
             </ul>
           </div>

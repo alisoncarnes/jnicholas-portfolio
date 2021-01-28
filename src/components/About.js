@@ -14,10 +14,10 @@ class About extends Component {
               <ul>
                 <li>
                 <ion-icon name="caret-forward-outline"></ion-icon>
-                <Link to={'/'} style={{paddingRight:"40px"}}>Home</Link>
+                <a href={'/'} style={{paddingRight:"40px"}}>Home</a>
 
                   <ion-icon name="caret-forward-outline"></ion-icon>
-                    <Link to={'/visualmerchandising'}>Visual Merchandising</Link>
+                    <a href={'/visualmerchandising'}>Visual Merchandising</a>
                 </li>
 
               </ul>

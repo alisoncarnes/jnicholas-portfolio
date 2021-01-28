@@ -17,10 +17,10 @@ class Home extends Component {
                 <ul>
                   <li>
                   <ion-icon name="caret-forward-outline"></ion-icon>
-                    <Link to={'/visualmerchandising'} style={{paddingRight:"40px"}}>Visual Merchandising</Link>
+                    <a href={'/visualmerchandising'} style={{paddingRight:"40px"}}>Visual Merchandising</a>
 
                     <ion-icon name="caret-forward-outline"></ion-icon>
-                    <Link to={'/about'}>About Me</Link>
+                    <a href={'/about'}>About Me</a>
                   </li>
 
                 </ul>

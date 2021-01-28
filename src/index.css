@@ -71,6 +71,10 @@ a:hover{
   color: #EFC5C7 !important;
 }
 
+.top-link{
+  padding-right: 40px;
+}
+
 .store-name{
   background-color: #141414 !important;
   color: whitesmoke !important;
@@ -189,8 +193,11 @@ span{
 
   .links{
     text-align: left;
-    margin-left: 0;
-    margin-left: 10px;
+    margin-left: 0px !important;
+  }
+
+  .top-link{
+    padding-right: 10px;
   }
 
   ion-icon{

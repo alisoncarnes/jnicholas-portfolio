@@ -17,7 +17,7 @@ class Home extends Component {
                 <ul>
                   <li>
                   <ion-icon name="caret-forward-outline"></ion-icon>
-                    <a href={'/visualmerchandising'} style={{paddingRight:"40px"}}>Visual Merchandising</a>
+                    <a href={'/visualmerchandising'} className="top-link">Visual Merchandising</a>
 
                     <ion-icon name="caret-forward-outline"></ion-icon>
                     <a href={'/about'}>About Me</a>

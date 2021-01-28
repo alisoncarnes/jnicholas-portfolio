@@ -16,7 +16,7 @@ class VisualMerch extends Component {
             <ul>
               <li>
               <ion-icon name="caret-forward-outline" style={{color:"#EFC5C7"}}></ion-icon>
-                <a href={'/'} style={{paddingRight:"40px"}}>Home</a>
+                <a href={'/'} className="top-link">Home</a>
 
                 <ion-icon name="caret-forward-outline" style={{color:"#EFC5C7"}}></ion-icon>
                 <a href={'/about'}>About Me</a>

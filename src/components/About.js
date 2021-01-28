@@ -14,10 +14,10 @@ class About extends Component {
               <ul>
                 <li>
                 <ion-icon name="caret-forward-outline"></ion-icon>
-                <a href={'https://jnicolas.netlify.app/'} style={{paddingRight:"40px"}}>Home</a>
+                <Link to={'/'} style={{paddingRight:"40px"}}>Home</Link>
 
                   <ion-icon name="caret-forward-outline"></ion-icon>
-                    <a href={'https://jnicolas.netlify.app/about'}>Visual Merchandising</a>
+                    <Link to={'/visualmerchandising'}>Visual Merchandising</Link>
                 </li>
 
               </ul>

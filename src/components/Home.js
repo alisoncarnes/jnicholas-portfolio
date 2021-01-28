@@ -17,10 +17,10 @@ class Home extends Component {
                 <ul>
                   <li>
                   <ion-icon name="caret-forward-outline"></ion-icon>
-                    <a href={'https://jnicolas.netlify.app/visualmerchandising'} style={{paddingRight:"40px"}}>Visual Merchandising</a>
+                    <Link to={'/visualmerchandising'} style={{paddingRight:"40px"}}>Visual Merchandising</Link>
 
                     <ion-icon name="caret-forward-outline"></ion-icon>
-                    <a href={'https://jnicolas.netlify.app/about'}>About Me</a>
+                    <Link to={'/about'}>About Me</Link>
                   </li>
 
                 </ul>

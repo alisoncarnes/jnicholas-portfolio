@@ -16,9 +16,6 @@ code {
   background-color: whitesmoke;
 }
 
-body {
-  background-color: #EFC5C7;
-}
 
 .container{
   text-align: left;
@@ -318,5 +315,27 @@ img.top-photo{
    margin-top: -20px;
    overflow: hidden !important;
  }
+
+ img.top-photo{
+   display: block;
+   margin: 0 auto;
+   max-width: 400px;
+   height: auto;
+ }
+
+ .portfolio-photo{
+   max-width: 150px;
+   height: auto;
+ }
+
+ .left-photo{
+   max-width: 270px;
+   height: auto;
+ }
+
+ .right-photo{
+   max-height: 250px;
+ }
+
 
 }

@@ -19,33 +19,30 @@ class VisualMerch extends Component {
                 <a href={'/'} className="top-link">Home</a>
 
                 <ion-icon name="caret-forward-outline" style={{color:"#EFC5C7"}}></ion-icon>
-                <a href={'/about'}>About Me</a>
+                <a href={'/about'}>About</a>
                 </li>
             </ul>
           </div>
         </div>
 
-          <div className="empty-div">
-            <hr style={{width: "100%"}}/>
+        <div className="empty-div">
+          <hr style={{width: "100%"}}/>
+        </div>
+
+        <div className="container">
+          <div className="row">
+            <div className="col-left">
+            Club Monaco
+            <p> <a href={'/beverlycenter'}>Beverly Center</a> </p>
+            </div>
+
+            <div className="col-right">
+            COS
+            </div>
           </div>
-
-          <div className="container">
-            <div className="row">
-              <div className="col">
-              <h1 className="store-name">Club Monaco</h1>
-
-              <BootstrapCarousel/>
-              </div>
-
-              <div className="col">
-              <h1 className="store-name">Cos</h1>
-
-              <CosCarousel/>
-              </div>
+        </div>
 
 
-          </div>
-          </div>
           </Router>
           <div className="padding"/>
       </div>

@@ -20,7 +20,7 @@ class Home extends Component {
                     <a href={'/visualmerchandising'} className="top-link">Visual Merchandising</a>
 
                     <ion-icon name="caret-forward-outline"></ion-icon>
-                    <a href={'/about'}>About Me</a>
+                    <a href={'/about'}>About</a>
                   </li>
 
                 </ul>

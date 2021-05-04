@@ -16,6 +16,10 @@ code {
   background-color: whitesmoke;
 }
 
+body {
+  background-color: #EFC5C7;
+}
+
 .container{
   text-align: left;
 }
@@ -182,6 +186,35 @@ p{
 span{
   font-size: 22px;
   padding: 5px;
+}
+
+img.top-photo{
+  display: block;
+  margin: 0 auto;
+  max-width: 725px;
+  height: auto;
+}
+
+.portfolio-photo{
+  max-width: 350px;
+  height: auto;
+}
+
+.left-photo{
+  max-width: 470px;
+  height: auto;
+}
+
+.right-photo{
+  max-height: 350px;
+}
+
+.left-col{
+  padding-right: 10px;
+}
+
+.padding2{
+  padding: 20px;
 }
 
 @media only screen and (max-width: 600px) {

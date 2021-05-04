@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './components/Home';
-import HomeScreen from './components/HomeScreen';
 import About from './components/About';
 import VisualMerch from './components/VisualMerch';
+import BeverlyCenter from './components/BeverlyCenter';
 import Fade from 'react-reveal/Fade';
-import BootstrapCarousel from './components/Carousel';
-import CosCarousel from './components/CosCarousel';
+// import BootstrapCarousel from './components/Carousel';
+// import CosCarousel from './components/CosCarousel';
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route exact path='/visualmerchandising' component={VisualMerch} />
           <Route exact path='/about' component={About} />
+          <Route exact path='/beverlycenter' component={BeverlyCenter} />
       </Switch>
     </Router>
     </div>

@@ -319,22 +319,23 @@ img.top-photo{
  img.top-photo{
    display: block;
    margin: 0 auto;
-   max-width: 400px;
+   max-width: 350px;
    height: auto;
  }
 
  .portfolio-photo{
-   max-width: 150px;
+   max-width: 350px;
    height: auto;
+   text-align: center !important;
  }
 
  .left-photo{
-   max-width: 270px;
+   max-width: 350px;
    height: auto;
  }
 
  .right-photo{
-   max-height: 250px;
+   max-height: 350px;
  }
 
 

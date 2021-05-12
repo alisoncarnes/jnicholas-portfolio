@@ -69,7 +69,7 @@ class SantaMonica extends Component {
         </div>
 
 
-        <div className="padding"/>
+        <div className="padding2"/>
 
         <img className="top-photo" src={'./clubsantamonica/6.jpg'}/>
 

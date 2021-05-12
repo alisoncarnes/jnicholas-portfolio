@@ -44,6 +44,9 @@ class VisualMerch extends Component {
               <br/>
               <ion-icon style={{color:"#EFC5C7"}} name="caret-forward-outline"></ion-icon>
               <a href={'/sanfrancisco'}>San Francisco</a>
+              <br/>
+              <ion-icon style={{color:"#EFC5C7"}} name="caret-forward-outline"></ion-icon>
+              <a href={'/southcoastplaza'}>South Coast Plaza</a>
 
 
              </p>

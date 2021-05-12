@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
-import BootstrapCarousel from '../components/Carousel';
-import CosCarousel from '../components/CosCarousel';
+
 
 class VisualMerch extends Component {
   render() {
@@ -19,7 +18,7 @@ class VisualMerch extends Component {
                 <a href={'/'} className="top-link">Home</a>
 
                 <ion-icon name="caret-forward-outline" style={{color:"#EFC5C7"}}></ion-icon>
-                <a href={'/about'}>About</a>
+                <a href={'/about'}>Contact</a>
                 </li>
             </ul>
           </div>
@@ -32,12 +31,26 @@ class VisualMerch extends Component {
         <div className="container">
           <div className="row">
             <div className="col-left">
-            Club Monaco
-            <p> <a href={'/beverlycenter'}>Beverly Center</a> </p>
+            <h3>Club Monaco</h3>
+            <p>
+              <ion-icon style={{color:"#EFC5C7"}} name="caret-forward-outline"></ion-icon>
+              <a href={'/beverlycenter'}>Beverly Center</a>
+              <br/>
+              <ion-icon style={{color:"#EFC5C7"}} name="caret-forward-outline"></ion-icon>
+              <a href={'/beverlydrive'}>Beverly Drive</a>
+              <br/>
+              <ion-icon style={{color:"#EFC5C7"}} name="caret-forward-outline"></ion-icon>
+              <a href={'/santamonica'}>Santa Monica</a>
+              <br/>
+              <ion-icon style={{color:"#EFC5C7"}} name="caret-forward-outline"></ion-icon>
+              <a href={'/sanfrancisco'}>San Francisco</a>
+
+
+             </p>
             </div>
 
             <div className="col-right">
-            COS
+            <h3>COS</h3>
             </div>
           </div>
         </div>

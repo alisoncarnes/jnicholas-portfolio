@@ -1,16 +1,3 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
 
 * {
   background-color: whitesmoke;
@@ -48,7 +35,7 @@ code {
   color: 	#141414;
 }
 
-.description {
+h2.description {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: lighter;
@@ -108,43 +95,6 @@ a:hover{
   text-transform: uppercase;
 }
 
-.carousel {
-  width:500px;
-  height:500px;
-  overflow: hidden !important;
-}
-
-.carousel-item{
-  height: 500px;
-}
-
-.carousel-indicators{
-  visibility: hidden;
-  /* color: black !important; */
-  bottom: 100px !important;
-  position:absolute !important;
-}
-
-.carousel-indicators li { visibility: hidden !important; }
-
-.carousel-control-prev{
-  top: 0% !important;
-  margin-left: 0px !important;
-  background-color: black !important;
-  height: 50px !important;
-}
-
-.carousel-control-next{
-  top: 0% !important;
-  margin-left: 0px !important;
-  background-color: black !important;
-  height: 50px !important;
-}
-
-.carousel-caption {
-  /* visibility: hidden !important; */
-}
-
 .padding{
   padding: 40px;
 }
@@ -165,14 +115,14 @@ a:hover{
   background-color: whitesmoke;
   text-align: left;
 }
+ h3{
+   font-family: 'Alegreya Sans SC', sans-serif;
+   font-weight: bold !important;
+   font-size: 40px !important;
+   color: 	#141414 !important;
+ }
 
 
-h3{
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-weight: bolder !important;
-  font-size: 30px !important;
-  color: 	#141414 !important;
-}
 
 p{
   width: 300px;
@@ -204,6 +154,11 @@ img.top-photo{
 
 .right-photo{
   max-height: 350px;
+}
+
+.right, .left{
+  max-height: 290px;
+  width: auto;
 }
 
 .left-col{
@@ -309,34 +264,52 @@ img.top-photo{
    font-size: 15px;
  }
 
- .carousel {
-   width:300px;
-   height:300px;
-   margin-top: -20px;
-   overflow: hidden !important;
- }
 
- img.top-photo{
+ /* img.top-photo{
    display: block;
    margin: 0 auto;
    max-width: 350px;
    height: auto;
+ } */
+
+ img{
+   max-width: 350px !important;
+   margin-left: 0px;
+   height: auto;
+   padding-bottom: 10px;
  }
 
- .portfolio-photo{
-   max-width: 350px;
-   height: auto;
+ .top-photo{
+   margin: 0px!important;
+   max-width: 350px !important;
+ }
+
+ .right-photo, .right{
+   padding-left: 15px !important;
+   display: block;
    text-align: center !important;
+   max-width: 350px !important;
  }
 
- .left-photo{
-   max-width: 350px;
-   height: auto;
+ .left-photo, .left{
+   display: block;
+   padding-left: 0px;
+   max-width: 350px !important;
  }
 
- .right-photo{
-   max-height: 350px;
+
+ .left-col{
+   padding-left: 15px;
+   text-align: center;
  }
 
+ .padding2{
+   margin-top: -40px;
+ }
+
+ .main{
+     display: inline-block;
+     text-align: center;
+   }
 
 }

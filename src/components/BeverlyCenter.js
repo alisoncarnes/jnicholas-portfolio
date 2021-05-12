@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 class BeverlyCenter extends Component {
   render() {
     return (
+      <div className="main">
       <div className="container">
         <Router>
           <h1 className="visual-title" style={{marginTop: "30px"}}>Beverly Center</h1>
@@ -19,7 +20,7 @@ class BeverlyCenter extends Component {
                   <a href={'/'} className="top-link">Home</a>
 
                     <ion-icon style={{color:"#EFC5C7"}} name="caret-forward-outline"></ion-icon>
-                    <a href={'/about'}>About</a>
+                    <a href={'/about'}>Contact</a>
 
                     <ion-icon style={{paddingLeft: '20px', color:"#EFC5C7"}} name="caret-forward-outline"></ion-icon>
                       <a href={'/visualmerchandising'} className="top-link">back to Visual Merchandising</a>
@@ -69,6 +70,7 @@ class BeverlyCenter extends Component {
 
 
     <div className="padding"/>
+      </div>
       </div>
     )
   }

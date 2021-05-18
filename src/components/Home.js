@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 class Home extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="main">
         <Router>
         <Fade left>
           <h1 className="title">John Nicolas</h1>

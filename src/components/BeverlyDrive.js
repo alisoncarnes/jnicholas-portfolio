@@ -94,11 +94,11 @@ class BeverlyDrive extends Component {
         <div className="row justify-content-center">
 
           <div className="left-col">
-            <img className="left" style={{maxHeight:"250px", width:"auto"}} src={'./clubbevdrive/9.jpg'}/>
+            <img className="left small" src={'./clubbevdrive/9.jpg'}/>
           </div>
 
           <div className="right-col">
-            <img className="right" style={{maxHeight:"250px", width:"auto"}} src={'./clubbevdrive/21.jpg'}/>
+            <img className="right small" src={'./clubbevdrive/21.jpg'}/>
           </div>
 
         </div>
@@ -130,11 +130,11 @@ class BeverlyDrive extends Component {
         <div className="row justify-content-center">
 
           <div className="left-col">
-            <img className="left" style={{maxWidth:"360px"}} src={'./clubbevdrive/14.jpg'}/>
+            <img className="left custom-size" src={'./clubbevdrive/14.jpg'}/>
           </div>
 
           <div className="right-col">
-            <img className="right" style={{maxWidth:"360px"}} src={'./clubbevdrive/18.jpg'}/>
+            <img className="right custom-size" src={'./clubbevdrive/18.jpg'}/>
           </div>
 
         </div>

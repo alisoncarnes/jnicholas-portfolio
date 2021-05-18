@@ -9,6 +9,10 @@ import BeverlyDrive from './components/BeverlyDrive';
 import SantaMonica from './components/SantaMonica';
 import SanFran from './components/SanFran';
 import SouthCoast from './components/SouthCoast';
+import Dc from './components/Dc';
+import King from './components/King';
+import Natick from './components/Natick';
+import Vancouver from './components/Vancouver';
 import Fade from 'react-reveal/Fade';
 
 
@@ -26,6 +30,10 @@ function App() {
           <Route exact path='/santamonica' component={SantaMonica} />
           <Route exact path='/sanfrancisco' component={SanFran} />
           <Route exact path='/southcoastplaza' component={SouthCoast} />
+          <Route exact path='/dc' component={Dc} />
+          <Route exact path='/kingofprussia' component={King} />
+          <Route exact path='/natick' component={Natick} />
+          <Route exact path='/vancouver' component={Vancouver} />
       </Switch>
     </Router>
     </div>

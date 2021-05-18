@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 class VisualMerch extends Component {
   render() {
     return (
-      <div className="main">
+
         <Router>
         <div className="container">
           <h1 className="visual-title" style={{marginTop: "30px"}}>Visual Merchandising</h1>
@@ -21,14 +21,11 @@ class VisualMerch extends Component {
                 <a href={'/about'}>Contact</a>
                 </li>
             </ul>
+
           </div>
-        </div>
 
-        <div className="empty-div">
-          <hr style={{width: "100%"}}/>
-        </div>
-
-        <div className="container">
+          <hr/>
+          
           <div className="row">
             <div className="col-left">
             <h3>Club Monaco</h3>
@@ -54,14 +51,29 @@ class VisualMerch extends Component {
 
             <div className="col-right">
             <h3>COS</h3>
+            <p>
+              <ion-icon style={{color:"#EFC5C7"}} name="caret-forward-outline"></ion-icon>
+              <a href={'/dc'}>DC</a>
+              <br/>
+              <ion-icon style={{color:"#EFC5C7"}} name="caret-forward-outline"></ion-icon>
+              <a href={'/kingofprussia'}>King of Prussia</a>
+              <br/>
+              <ion-icon style={{color:"#EFC5C7"}} name="caret-forward-outline"></ion-icon>
+              <a href={'/natick'}>Natick</a>
+              <br/>
+              <ion-icon style={{color:"#EFC5C7"}} name="caret-forward-outline"></ion-icon>
+              <a href={'/vancouver'}>Vancouver</a>
+            </p>
             </div>
           </div>
         </div>
 
 
           </Router>
-          <div className="padding"/>
-      </div>
+
+
+
+
     )
   }
 }

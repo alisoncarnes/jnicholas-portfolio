@@ -1,11 +1,25 @@
 
-* {
-  background-color: whitesmoke;
+
+body{
+background-image: url('https://i.ibb.co/PcLF3sy/pexels-madison-inouye-1101122.jpg');
 }
 
+.main{
+text-align: center;
+}
 
 .container{
   text-align: left;
+  min-height: 100vh !important;
+  max-height: 100% !important;
+  background-color:#fafafa;
+  margin-top: -30px !important;
+  width: 100% !important;
+}
+
+.fill {
+    min-height: 100% !important;
+    height: 100% !important;
 }
 
 .title {
@@ -21,7 +35,7 @@
   font-family: 'Archivo Black', sans-serif;
   text-transform: uppercase;
   font-size: 100px !important;
-  margin-top: 300px;
+  padding-top: 50px;
   margin-left: 60px;
   color: 	#141414;
 }
@@ -30,7 +44,7 @@
   font-family: 'Archivo Black', sans-serif;
   text-transform: uppercase;
   font-size: 100px !important;
-  margin-top: 300px;
+  padding-top: 30px;
   margin-left: 60px;
   color: 	#141414;
 }
@@ -38,10 +52,10 @@
 h2.description {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 40px !important;
   margin-top:-20px !important;
-  margin-left: 60px;
+  margin-left: 170px;
   color: #EFC5C7;
 }
 
@@ -107,12 +121,12 @@ a:hover{
   width: 30%;
   margin-left: 25%;
   padding: 10px;
-  background-color: whitesmoke;
+  /* background-color: #FBFCFB; */
 }
 .col-right{
   width:30%;
   padding: 10px;
-  background-color: whitesmoke;
+  /* background-color: #FBFCFB; */
   text-align: left;
 }
  h3{
@@ -169,13 +183,37 @@ img.top-photo{
   padding: 20px;
 }
 
+.small{
+  max-height: 250px ;
+  width: auto;
+}
+
+ .custom-size{
+  max-width: 360px;
+}
+
+.custom-photo{
+  height: 565px
+}
+
+.custom-top{
+  width: 720px;
+}
+
 @media only screen and (max-width: 600px) {
 
+
+  .main{
+    text-align: left !important;
+    padding-left: 20px;
+  }
+
   .container{
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
     margin-left: 0px !important;
     text-align: left;
     width: 100% !important;
+    height: 100% !important;
   }
 
   .title {
@@ -289,12 +327,14 @@ img.top-photo{
    display: block;
    text-align: center !important;
    max-width: 350px !important;
+   max-height: 500px;
  }
 
  .left-photo, .left{
    display: block;
    padding-left: 0px;
    max-width: 350px !important;
+   max-height: 500px;
  }
 
 

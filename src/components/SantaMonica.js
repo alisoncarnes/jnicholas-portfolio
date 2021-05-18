@@ -78,11 +78,11 @@ class SantaMonica extends Component {
         <div className="row justify-content-center">
 
           <div className="left-col">
-            <img className="left" style={{maxWidth:"360px"}} src={'./clubsantamonica/9.jpg'}/>
+            <img className="left custom-size" src={'./clubsantamonica/9.jpg'}/>
           </div>
 
           <div className="right-col">
-            <img className="right" style={{maxWidth:"360px"}} src={'./clubsantamonica/10.jpg'}/>
+            <img className="right custom-size" src={'./clubsantamonica/10.jpg'}/>
           </div>
 
         </div>

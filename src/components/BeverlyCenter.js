@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 class BeverlyCenter extends Component {
   render() {
     return (
-      <div className="main">
+
       <div className="container">
         <Router>
           <h1 className="visual-title" style={{marginTop: "30px"}}>Beverly Center</h1>
@@ -29,7 +29,7 @@ class BeverlyCenter extends Component {
 
                 </ul>
 
-              </div>
+            </div>
         </Router>
 
 
@@ -65,12 +65,11 @@ class BeverlyCenter extends Component {
             <img className="right-photo" src={'./clubbevcenter/6.png'}/>
           </div>
 
-        </div>
-
-
-    <div className="padding"/>
       </div>
-      </div>
+
+      <div className="padding"/>
+
+    </div>
     )
   }
 }

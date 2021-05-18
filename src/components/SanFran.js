@@ -40,7 +40,7 @@ class SanFran extends Component {
         <div className="row justify-content-center">
 
           <div className="col-4">
-            <img className="portfolio-photo" style={{height:"565px"}} src={'./clubsf/4.jpg'}/>
+            <img className="portfolio-photo custom-photo" src={'./clubsf/4.jpg'}/>
           </div>
 
           <div className="col-4">
@@ -76,11 +76,11 @@ class SanFran extends Component {
         <div className="row justify-content-center">
 
           <div className="left-col">
-            <img className="left" style={{maxWidth:"360px"}} src={'./clubsf/1.jpg'}/>
+            <img className="left custom-size" src={'./clubsf/1.jpg'}/>
           </div>
 
           <div className="right-col">
-            <img className="right" style={{maxWidth:"360px"}} src={'./clubsf/6.jpg'}/>
+            <img className="right custom-size" src={'./clubsf/6.jpg'}/>
           </div>
 
         </div>

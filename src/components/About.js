@@ -37,7 +37,7 @@ class About extends Component {
                 <p><a href="mailto:johnnicolas23@yahoo.com"><ion-icon name="mail-outline" style={{color:"#EFC5C7"}}></ion-icon> email</a>
 
                 <br/><br/>
-                <a href="https://docs.google.com/document/d/1T3MghXDzOQGNsYgv8-nj9YDiGZsy01yfGp8s1yNlT6o/edit?usp=sharing"><ion-icon name="document-text-outline" style={{color:"#EFC5C7"}}></ion-icon>Resume</a>
+                <a href="https://drive.google.com/file/d/1im0YFzjTptg5ue8G91c52Ji0xZI_h5HI/view?usp=sharing"><ion-icon name="document-text-outline" style={{color:"#EFC5C7"}}></ion-icon>Resume</a>
 
                 <br/><br/>
                 <a href="https://www.instagram.com/__jnicolas/"><ion-icon name="logo-instagram" style={{color:"#EFC5C7"}}></ion-icon> @__jnicolas</a>
